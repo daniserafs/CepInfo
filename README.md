@@ -1,7 +1,8 @@
-Criar API de busca de CEP, consumindo a API e trazendo os dados para o usuário.
-Input: CEP como string com traços
-Requisito: Usar axios, destructuring e outros recuros de ES6+
-Usar módulo http do nodeJS
+Create an API to search CEP (Brazilian Zip Code/Postal Code). Consume the API and show data to user.✅
+Input: Zip Code using strings with hyphens.✅ (❓ I'm not quite sure if the code at this point is able to accept hyphens.)
+Requirements: Use Axios, desctrutings and other ES6+ resources. ✅
+Use http modules from nodeJS. ✅
+
 
 ### Initializing
     on terminal: `yarn start`
