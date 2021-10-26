@@ -1,20 +1,16 @@
-import React, { useCallback, useState, useEffect } from 'react';
+import React from "react";
 
-import './styles/App.css';
-import CepInput from './components/CepInput'
-
+import "./styles/App.css";
+import CepInput from "./components/CepInput";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      </header>
+      <header className="App-header"></header>
 
-        <CepInput></CepInput>
-         {/* // trying to get the info in backend to frontend */}
-      
+      <CepInput></CepInput>
+      {/* // trying to get the info in backend to frontend */}
     </div>
-    
   );
 }
 

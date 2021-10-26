@@ -7,6 +7,9 @@ function CepInput() {
   const [data, setData] = useState("");
   const [cepValue, setCepValue] = useState("");
 
+  // const handleChange = e => {
+  //   setCepValue(e.target.value)
+  // }
   const fetchData = useCallback(async () => {
     if (cepValue.length == 8) {
       const { data: newData } = await axios.get(
@@ -20,9 +23,14 @@ function CepInput() {
   useEffect(() => {
     fetchData();
   }, [fetchData, cepValue]);
+
+  //  useEffect(() => {
+  //   fetchData();
+  // }, [fetchData, cepValue]);
+
   return (
     <div className="container">
-      <header />      
+      <header />
       <input
         className="cep-input-field"
         name="cepValue"
