@@ -1,0 +1,32 @@
+html, body{ 
+  min-width: 100%;
+  min-height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 1.4;
+  color: #444;
+  background-color: #FFDBCC;
+  
+  }
+
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+}
+
+div.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+  
+}

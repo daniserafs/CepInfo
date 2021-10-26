@@ -1,0 +1,19 @@
+{
+  "name": "findCEP",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "cep-promise": "^4.1.1",
+    "concurrently": "^6.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.14"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "client": "yarn --cwd client run start",
+    "server": "nodemon index",
+    "start": "concurrently \"yarn run server\" \"yarn run client\""
+  }
+}

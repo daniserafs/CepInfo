@@ -1,0 +1,38 @@
+
+p.cep-info {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1.5rem;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    padding: 15px 15px 15px 5px;
+}
+ul li { 
+    display: flex;
+    justify-content: flex-start;
+    width: 290px;
+    height: 45px;
+    background-color: #A2E1DB;
+    list-style-type: none;
+    padding-left: 5px;
+    margin: 11px 11px 11px 30px;
+    font-size: 1.2em;
+    color: #444;
+}
+
+input.cep-input-field { 
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 40px 10px;
+    font-size: 20px;
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    background-color: #FCB9AA;
+  }
